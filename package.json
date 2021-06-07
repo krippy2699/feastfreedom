@@ -1,0 +1,19 @@
+{
+  "name": "feastfreedom",
+  "version": "1.0.0",
+  "description": "Submit tech project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krippy2699/feastfreedom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krippy2699/feastfreedom/issues"
+  },
+  "homepage": "https://github.com/krippy2699/feastfreedom#readme"
+}
