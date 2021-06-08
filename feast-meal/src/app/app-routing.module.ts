@@ -6,8 +6,10 @@ import {RegisterformComponent} from './registerform/registerform.component';
 import{ CanactiveguardGuard } from './service/canactiveguard.guard';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { from } from 'rxjs';
+import { WorkhourformComponent } from './workhourform/workhourform.component';
 const routes: Routes = [
-  {path: 'register', component: RegisterformComponent}
+  {path: 'register', component: RegisterformComponent}, // path for the register form
+  {path:'workhour', component:WorkhourformComponent} // path for the workhour form 
 ];
 
 @NgModule({

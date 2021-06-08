@@ -1,1 +1,74 @@
-<p>registerform works!</p>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Registration</title>
+</head>
+
+<body class="regform1body">
+    <div class="regform1div">
+        <form class="regform1">
+            
+            <div class="form-group">
+                <label for="restname">Registered Business Name:</label>
+                <input class="form-control" type="text" required="required" placeholder="Restaurant Name...." name="restname"/>
+            </div>
+
+            <div class="form-group">
+                <label for="restaddy">Address:</label>
+                <input class="form-control" type="text" required placeholder="Address...." name="restaddy"/>
+            </div>
+
+            <div class="form-group">
+                <label for="restownername">Name:</label>
+                <input class="form-control" type="text" required placeholder="User's Name..." name="restownername"/>
+            </div>
+
+            <div class="form-group">
+                <label for="restemail">Email:</label>
+                <input class="form-control" type="email" required placeholder="Business Email...." name="restemail"/>
+            </div>
+
+            <div class="form-group">
+                <label for="restnumber">Business Number:</label>
+                <input class="form-control" type="text" required name="restnumber"/>
+            </div>
+
+            <div class="form-group">
+                <label for="restcuisine">Cuisine</label>
+                <select name="restcuisine">
+                    <option value="Indian">Indian</option>
+                    <option value="Portugese">Portugese</option>
+                    <option value="American">American Fast Food</option>
+                    <option value="Mexican">Mexican</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Soul">Soul</option>
+                    <option value="Gourmet" selected>Gourmet</option>
+                    <option value="Multicontinental">Multi-continental</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="restpass">Password:</label>
+                <input class="form-control" type="password" required name="restpass" minlength="10"/>
+                <small>
+                    <ul>
+                        <li>Password should be 10 or more characters long</li>
+                        <li>Password should hold a special character</li>
+                        <li>Password should hold a number</li>
+                        <li>Password should hold an UpperCase letter</li> 
+                    </ul>
+                </small>
+            </div>
+
+            <div class="form-group">
+                <button routerLink="workhour" type="button" class="btn btn-info">Next</button>
+                <button routerLink="" type="button" class="btn btn-info">Cancel</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
