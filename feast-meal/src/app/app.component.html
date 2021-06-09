@@ -1,7 +1,21 @@
-<div class="freedombar">
-    <h1 class="freedomheader">FEAST  FREEDOM</h1>
-</div>
-<a routerLink="/register">Provider Register Now</a>
-<br />
-<a routerLink="/login">Login</a>
+<p>
+    <mat-toolbar color="primary">
+      <a routerLink="" class="home">FeastFreedom.com</a>
+      <span class="spacer"></span>
+      <p>
+      <a routerLink="/register" class="word">Provider Register Now</a>
+      </p>
+      &nbsp;
+      &nbsp;
+      <p>
+          <button mat-button [matMenuTriggerFor]="menu" class="word">Login</button>
+     <mat-menu #menu="matMenu">
+      <a routerLink="/login" class="word">Login</a>
+      <br>
+      <a routerLink="" (click)="logout()" class="word">Logout</a>
+    </mat-menu>
+      </p> 
+    </mat-toolbar>
+  </p>
+ 
 <router-outlet></router-outlet>

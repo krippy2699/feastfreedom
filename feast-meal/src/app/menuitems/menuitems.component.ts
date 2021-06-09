@@ -7,17 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuitemsComponent implements OnInit {
 
-  constructor() { }
 
-  private addstatus : any;
+
+  constructor() {}
 
   ngOnInit(): void {
   }
 
   public addmenuitem()
   {
-    this.addstatus = true;
-    console.log(this.addstatus);
+  
   }
 
 
