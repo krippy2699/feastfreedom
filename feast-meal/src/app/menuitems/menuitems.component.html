@@ -4,52 +4,72 @@
     <meta charset="utf-8">
 </head>
 
-<body>
+<body class="menuitembody">
     <h1>So Whats on the Menu ?</h1>
 
-    <ng-template #addingitem>
-        <div>
-            <label for="itemname">Dish Name:</label>
-            <input class="form-control" name="itemname" type="text" required="required">
-        </div>
-
-        <div>
-            <input class="form-control" type="checkbox" name="veg" checked>
-            <label for="veg">Vegetarian</label>  
-        
-            <input class="form-control" type="checkbox" name="nonveg">
-            <label for="nonveg">Non-Vegetarian</label>  
-        </div>
-
-        <div>
-            <label for="itemprice">Price:$ </label>
-            <input class="form-control" minlength="10" name="itemprice" type="text" required="required">
-        </div>
-    </ng-template>
-
     <form class="menuitemform">
-        <div>
-            <label for="itemname">Dish Name:</label>
-            <input class="form-control" name="itemname" type="text" required="required">
-        </div>
-
-        <div>
-            <input class="form-control" type="checkbox" name="veg" checked>
-            <label for="veg">Vegetarian</label>  
         
-            <input class="form-control" type="checkbox" name="nonveg">
-            <label for="nonveg">Non-Vegetarian</label>  
+        <div class="menuitem1">
+            <div>
+                <label for="itemname">Dish Name:</label>
+                <input class="form-control" size="20" name="itemname" type="text" required="required">
+            </div>
+
+            <div>
+                <input class="form-control" type="checkbox" name="veg" checked>
+                <label for="veg">Vegetarian</label>  
+            
+                <input class="form-control" type="checkbox" name="nonveg">
+                <label for="nonveg">Non-Vegetarian</label>  
+            </div>
+
+            <div>
+                <label for="itemprice">Price:$ </label>
+                <input class="form-control" size="20" name="itemprice" type="text" required="required">
+            </div>
         </div>
 
-        <div>
-            <label for="itemprice">Price:$ </label>
-            <input class="form-control" minlength="10" name="itemprice" type="text" required="required">
+        <div class="menuitem2">
+            <div>
+                <label for="itemname">Dish Name:</label>
+                <input class="form-control" name="itemname" type="text" required="required">
+            </div>
+
+            <div>
+                <input class="form-control" type="checkbox" name="veg" checked>
+                <label for="veg">Vegetarian</label>  
+            
+                <input class="form-control" type="checkbox" name="nonveg">
+                <label for="nonveg">Non-Vegetarian</label>  
+            </div>
+
+            <div>
+                <label for="itemprice">Price:$ </label>
+                <input class="form-control" minlength="10" name="itemprice" type="text" required="required">
+            </div>
         </div>
 
+        <div class="menuitem3">
+            <div>
+                <label for="itemname">Dish Name:</label>
+                <input class="form-control" name="itemname" type="text" required="required">
+            </div>
 
-        <button type="button" class="btn btn-info" (click)="addmenuitem()"> Add </button>
+            <div>
+                <input class="form-control" type="checkbox" name="veg" checked>
+                <label for="veg">Vegetarian</label>  
+            
+                <input class="form-control" type="checkbox" name="nonveg">
+                <label for="nonveg">Non-Vegetarian</label>  
+            </div>
 
+            <div>
+                <label for="itemprice">Price:$ </label>
+                <input class="form-control" minlength="10" name="itemprice" type="text" required="required">
+            </div>
+        </div>
 
+        <button type="button" class="btn btn-info"> Save </button>
     </form>
 </body>
 
