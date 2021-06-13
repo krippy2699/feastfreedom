@@ -13,12 +13,7 @@ div.regform1div
 
 form.regform1
 {
-    text-align:center;
-    padding: 50px;
+    text-align:left;
+    padding: 40px;
     color: slateblue;
-}
-
-button
-{
-    margin:10px;
 }

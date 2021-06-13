@@ -12,4 +12,21 @@ export class WorkhourformComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  gettingstarttime(starttime : any)
+  {
+    console.log(starttime);
+  }
+
+  gettingendtime(endtime : any)
+  {
+    console.log(endtime)
+  }
+
+  gettingrestimg(restimg : any)
+  {
+    console.log(restimg);
+  }
+
+
+
 }

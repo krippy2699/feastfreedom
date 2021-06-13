@@ -46,11 +46,13 @@
                     <h2>Work Hours</h2>
                     <div>
                         <label for="starttime">Opening Time: </label>
-                        <input name="starttime" type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+                        <input ngModel name="starttime" #starttime="ngModel" (change)="gettingstarttime(starttime)"type="time" id="appt" name="appt" min="09:00" max="18:00" required="required">
+                        <div class="alert alert-danger" *ngIf="starttime.touched && !starttime.valid" >Registration requires user to enter a start time ! </div>
                     </div>
                     <div>
                         <label for="endtime">Closing Time: </label>
-                        <input name="endtime" type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+                        <input ngModel name="endtime" #endtime="ngModel" (change)="gettingendtime(endtime)" type="time" id="appt" name="appt" min="09:00" max="18:00" required="required ">
+                        <div class="alert alert-danger" *ngIf="endtime.touched && !endtime.valid">Registration requires user to enter a closing time !</div>
                     </div>
                 </div>
 
@@ -58,7 +60,8 @@
                     <h2>Image</h2>
                     <label for="restimg">Upload Image: </label>
                     <br />
-                    <input type="file" id="img" required="required" name="restimg" accept="image/*">
+                    <input ngModel type="file" id="img" required="required" name="restimg" #restimg="ngModel" accept="image/*" (change)="gettingrestimg(restimg)">
+                    <div class="alert alert-danger" *ngIf="restimg.touched && !restimg.valid">Registration requires user to upload a unique profile business picture !</div>
                     <br />
                 </div>
             

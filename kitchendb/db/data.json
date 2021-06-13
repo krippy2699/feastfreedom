@@ -1,0 +1,43 @@
+{
+        "kitchen"  : [
+            {
+                "Id" : 1,
+                "Name" : "Dominoz",
+                "Email" : "dominoz99@gmail.com",
+                "Password" : "password123!",
+                "MenuItem1" : "Pizza",
+                "Item1Price" : 8,
+                "MenuItem2" : "BreadSticks",
+                "Item2Price" : 4,
+                "MenuItem3" : "Pasta",
+                "Item3Price" : "9",
+                "Pic" : "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F3e%2FDomino%2527s_pizza_logo.svg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDomino%2527s_Pizza&tbnid=SRGBQKe5XG8yhM&vet=12ahUKEwjhmqTZ_ZDxAhUOkp4KHSZyChUQMygLegUIARDQAQ..i&docid=4pYAsUgd3590pM&w=796&h=800&itg=1&q=dominos%20branch%20image&ved=2ahUKEwjhmqTZ_ZDxAhUOkp4KHSZyChUQMygLegUIARDQAQ"
+            },
+            {
+                "Id" : 2,
+                "Name" : "McDonalds",
+                "Email" : "mickeyds1432@hotmail.com",
+                "Password" : "hunter1234!",
+                "MenuItem1" : "McChicken",
+                "Item1Price" : 2,
+                "MenuItem2" : "McNuggets",
+                "Item2Price" : 6,
+                "MenuItem3" : "McFlurry",
+                "Item3Price" : 5,
+                "Pic" : "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F36%2FMcDonald%2527s_Golden_Arches.svg%2F2339px-McDonald%2527s_Golden_Arches.svg.png&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMcDonald%2527s_Golden_Arches.svg&tbnid=tEkQtVm2AL_89M&vet=12ahUKEwii27ru_ZDxAhVmwJcIHdVtDpcQMygBegUIARDWAQ..i&docid=IkAv3v1xHCLtzM&w=2339&h=2048&itg=1&q=Mcdonalds%20logo&ved=2ahUKEwii27ru_ZDxAhVmwJcIHdVtDpcQMygBegUIARDWAQ"
+            },
+            {
+                "Id":3,
+                "Name" : "Nobu",
+                "Email" : "kingwasabi@gmail1212.com",
+                "Password" : "nobupassword123!",
+                "MenuItem1" : "Shrimp Tempura",
+                "Item1Price" : 15,
+                "MenuItem2" : "Calamari",
+                "Item2Price" : 20,
+                "MenuItem3" : "Ceviche",
+                "Item3Price" : 40,
+                "Pic" : "https://www.google.com/imgres?imgurl=https%3A%2F%2Ficonape.com%2Fwp-content%2Fpng_logo_vector%2Fnobu-restaurants.png&imgrefurl=https%3A%2F%2Ficonape.com%2Fnobu-restaurants-logo-icon-svg-png.html&tbnid=siepbDgOHhc8UM&vet=12ahUKEwiMgvn-_ZDxAhXJgZ4KHXMrD30QMygAegUIARC2AQ..i&docid=YwF1beRcQDSzBM&w=600&h=600&itg=1&q=nobu%20logo&ved=2ahUKEwiMgvn-_ZDxAhXJgZ4KHXMrD30QMygAegUIARC2AQ"
+            }
+        ]
+}

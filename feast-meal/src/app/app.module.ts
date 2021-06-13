@@ -9,10 +9,13 @@ import { WorkhourformComponent } from './workhourform/workhourform.component';
 import { MenuitemsComponent } from './menuitems/menuitems.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
-
+import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AddtocartComponent } from './addtocart/addtocart.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { UserregisterComponent } from './userregister/userregister.component';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { FormsModule } from '@angular/forms';
     WorkhourformComponent,
     MenuitemsComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    AddtocartComponent,
+    HomepageComponent,
+    UserregisterComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,9 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatMenuModule,
-    FormsModule
+    MatIconModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

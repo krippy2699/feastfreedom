@@ -12,4 +12,36 @@ export class RegisterformComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  gettingrestname(restname: any)
+  {
+    console.log(restname);
+  }
+
+  gettingaddy(restaddy:any)
+  {
+    console.log(restaddy);
+  }
+
+  gettingrestowvername(restownername : any)
+  {
+    console.log(restownername);
+  }
+
+  gettingrestemail(restemail : any)
+  {
+    console.log(restemail);
+  }
+
+  gettingrestnumber(restnumber : any)
+  {
+    console.log(restnumber);
+  }
+
+  gettingrestpass(restpass : any)
+  {
+    console.log(restpass);
+  }
+
+
+
 }
